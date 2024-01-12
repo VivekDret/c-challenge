@@ -1,0 +1,7 @@
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\bin\Debug\OrderManagement.exe.config
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\bin\Debug\OrderManagement.exe
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\bin\Debug\OrderManagement.pdb
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\obj\Debug\OrderManagement.csproj.AssemblyReference.cache
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\obj\Debug\OrderManagement.csproj.CoreCompileInputs.cache
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\obj\Debug\OrderManagement.exe
+C:\Users\vivek\Desktop\code\Codingggggg-master\OrderManagement\obj\Debug\OrderManagement.pdb
