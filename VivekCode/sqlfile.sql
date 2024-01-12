@@ -1,7 +1,7 @@
 Create database OrderManagement;
 use orderManagement;
 
-
+//tablee
 CREATE TABLE userr (
 userid int primary key identity,
 username varchar(25),
@@ -9,7 +9,7 @@ password varchar(25),
 role varchar(25)
 );
 
-select * from userr
+
 
 CREATE TABLE product (
 productid int primary key identity,
@@ -30,9 +30,7 @@ price decimal,
 FOREIGN KEY (userid) REFERENCES userr(userid) on delete cascade,
 FOREIGN KEY (productid) REFERENCES product(productid) on delete cascade);
 
-select * from orders
 
-select * from product;
 
 
 
