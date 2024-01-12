@@ -18,9 +18,9 @@ namespace OrderManagement.DAO
         {
             try
             {
-                bool che=checkUserExist(userid);
-                bool che2 = checkorderExist(orderid);
-                if (che==true && che2==true)
+                bool chkuser=checkUserExist(userid);
+                bool chkorder = checkorderExist(orderid);
+                if (chkuser==true && chkorder==true)
                 {
                     conn = DBConnection.GetConnection();
                     SqlCommand cmd = new SqlCommand();
@@ -40,7 +40,7 @@ namespace OrderManagement.DAO
                         return false; 
                     }
                 }
-                else if(che==false)
+                else if(chkuser==false)
                 {
                     
                     throw new UserNotFoundException("No user id found");
@@ -104,8 +104,8 @@ namespace OrderManagement.DAO
         {
             try
             {
-                bool ad=adminExist(user.UserId);
-                if (ad == true)
+                bool exist=adminExist(user.UserId);
+                if (exist == true)
                 {
                     conn = DBConnection.GetConnection();
                     SqlCommand cmd = new SqlCommand();
